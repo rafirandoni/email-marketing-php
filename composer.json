@@ -1,0 +1,23 @@
+{
+    "name": "rafirandoni/email-marketing-php",
+    "description": "Email Marketing Wrapper",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Mohamad Rafi",
+            "email": "rafi.randoni@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-client": "^1.0",
+        "laminas/laminas-diactoros": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "EmailMarketing\\": "src/"
+        }
+    }
+}
